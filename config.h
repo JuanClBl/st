@@ -5,8 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "NotoSansMono Nerd Font:size=10:antialias=true:autohint=true";
-static char *font2[] = { "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true" };
+
+static char *font = "MesloLGS Nerd Font:size=11:antialias=true:autohint=true";
+static char *font2[] = { "Noto Color Emoji:pixelsize=11:antialias=true:autohint=true" };
+
 static int borderpx = 2;
 
 /*
