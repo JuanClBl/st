@@ -1,0 +1,63 @@
+alpha ❌
+alpha focus highlight ❌
+anygeometry ❌
+anysize ❌
+background image ❌
+blinking cursor ❌
+bold is not bright ❌
+boxdraw ❌
+clipboard ❌
+colors at launch ❌
+copyurl ❌
+csi 22 23 ❌
+cyclefonts ❌
+defaultfontsize ❌
+delkey ❌
+desktopentry ❌
+disable bold italic fonts ❌
+dracula ❌
+dynamic cursor color ❌
+externalpipe ❌
+externalpipe signal ❌
+fix ime ❌
+fix keyboard input ❌
+font2 ❌
+gradient ❌
+gruvbox ❌
+gruvbox material ❌
+hidecursor ❌
+invert ❌
+iso14755 ❌
+keyboard select ❌
+ligatures ❌
+moonfly ❌
+netwmicon ❌
+newterm ❌
+nordtheme ❌
+open copied url ❌
+openbsd ❌
+osc 10 11 12 ❌
+osc 10 11 12 2 ❌
+palettes ❌
+relativeborder ❌
+right click to plumb ❌
+rightclickpaste ❌
+scrollback ❌
+selectionbg alpha ❌
+selectioncolors ❌
+solarized ❌
+spoiler ❌
+swapmouse ❌
+sync ❌
+themed cursor ❌
+title parsing fix ❌
+undercurl ❌
+universcroll ❌
+vertcenter ❌
+vim browse ❌
+visualbell ❌
+visualbell2 ❌
+w3m ❌
+workingdir ❌
+xclearwin ❌
+xresources ❌
