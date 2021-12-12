@@ -7,7 +7,9 @@
  */
 
 static char *font = "MesloLGS Nerd Font:size=11:antialias=true:autohint=true";
-static char *font2[] = { "Noto Color Emoji:pixelsize=11:antialias=true:autohint=true" };
+static char *font2[] = { "Noto Color Emoji:pixelsize=11:antialias=true:autohint=true",
+			 "Noto Sans Symbols:size=11:antialias=true:autohint=true",
+			 "Noto Sans Symbols2:size=11:antialias=true:autohint=true" };
 
 static int borderpx = 2;
 
@@ -80,7 +82,7 @@ const int boxdraw = 1;
 const int boxdraw_bold = 1;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
-const int boxdraw_braille = 1;
+const int boxdraw_braille = 0;
 
 
 /*
