@@ -7,7 +7,9 @@
  */
 
 static char *font = "MesloLGS Nerd Font:size=11:antialias=true:autohint=true";
-static char *font2[] = { "Noto Color Emoji:pixelsize=11:antialias=true:autohint=true" };
+static char *font2[] = { "Noto Color Emoji:pixelsize=11:antialias=true:autohint=true",
+                         "Noto Sans Symbols:size=11:antialias=true:autohint=true",
+                         "Noto Sans Symbols2:size=11:antialias=true:autohint=true"};
 
 static int borderpx = 2;
 
@@ -80,7 +82,7 @@ const int boxdraw = 1;
 const int boxdraw_bold = 1;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
-const int boxdraw_braille = 1;
+const int boxdraw_braille = 0;
 
 
 /*
@@ -303,7 +305,7 @@ static Key key[] = {
 	{ XK_KP_Delete,     ControlMask,    "\033[3;5~",    +1,    0},
 	{ XK_KP_Delete,     ShiftMask,      "\033[2K",      -1,    0},
 	{ XK_KP_Delete,     ShiftMask,      "\033[3;2~",    +1,    0},
-	{ XK_KP_Delete,     XK_ANY_MOD,     "\033[P",       -1,    0},
+	{ XK_KP_Delete,     XK_ANY_MOD,     "\033[3~",      -1,    0},
 	{ XK_KP_Delete,     XK_ANY_MOD,     "\033[3~",      +1,    0},
 	{ XK_KP_Multiply,   XK_ANY_MOD,     "\033Oj",       +2,    0},
 	{ XK_KP_Add,        XK_ANY_MOD,     "\033Ok",       +2,    0},
@@ -371,7 +373,7 @@ static Key key[] = {
 	{ XK_Delete,        ControlMask,    "\033[3;5~",    +1,    0},
 	{ XK_Delete,        ShiftMask,      "\033[2K",      -1,    0},
 	{ XK_Delete,        ShiftMask,      "\033[3;2~",    +1,    0},
-	{ XK_Delete,        XK_ANY_MOD,     "\033[P",       -1,    0},
+	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",       -1,    0},
 	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",      +1,    0},
 	{ XK_BackSpace,     XK_NO_MOD,      "\177",          0,    0},
 	{ XK_BackSpace,     Mod1Mask,       "\033\177",      0,    0},
