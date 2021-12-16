@@ -21,7 +21,7 @@ externalpipe ❌
 externalpipe signal ❌
 fix ime ❌
 fix keyboard input ❌
-font2 ❌
+font2 ✅
 gradient ❌
 gruvbox ❌
 gruvbox material ❌
@@ -31,7 +31,7 @@ iso14755 ❌
 keyboard select ❌
 ligatures ❌
 moonfly ❌
-netwmicon ❌
+netwmicon ✅
 newterm ❌
 nordtheme ❌
 open copied url ❌
@@ -42,7 +42,7 @@ palettes ❌
 relativeborder ❌
 right click to plumb ❌
 rightclickpaste ❌
-scrollback ❌
+scrollback ✅
 selectionbg alpha ❌
 selectioncolors ❌
 solarized ❌
