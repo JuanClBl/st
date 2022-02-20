@@ -3,3 +3,6 @@ st.o
 x.c.orig
 x.o
 boxdraw.o
+.cache
+_vimrc_local.vim
+compile_commands.json
