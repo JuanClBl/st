@@ -9,7 +9,7 @@
 static char *font = "MesloLGS Nerd Font NoEmoji:size=11:style=Regular:antialias=true:autohint=true";
 static char *font2[] = { "Noto Color Emoji:pixelsize=11:style=Regular:antialias=true:autohint=true",
 			 "Noto Sans Symbols:size=11:style=Regular:antialias=true:autohint=true",
-                         "Noto Sans Symbols2:size=11:style=Regular:antialias=true:autohint=true" };
+			 "Noto Sans Symbols2:size=11:style=Regular:antialias=true:autohint=true" };
 
 static int borderpx = 2;
 
@@ -49,7 +49,7 @@ static unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* allow certain non-interactive (insecure) window operations such as:
-   setting the clipboard text */
+ setting the clipboard text */
 int allowwindowops = 0;
 
 /*
@@ -125,7 +125,7 @@ static const char *colorname[] = {
 	"magenta3",
 	"cyan3",
 	"gray90",
-
+	
 	/* 8 bright colors */
 	"gray50",
 	"red",
@@ -135,9 +135,9 @@ static const char *colorname[] = {
 	"magenta",
 	"cyan",
 	"white",
-
+	
 	[255] = 0,
-
+	
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
@@ -206,7 +206,7 @@ static uint forcemousemod = ShiftMask;
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
 	{ ShiftMask,            Button4, kscrollup,      {.i = 1} },
-        { ShiftMask,            Button5, kscrolldown,    {.i = 1} },
+	{ ShiftMask,            Button5, kscrolldown,    {.i = 1} },
 	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
@@ -506,7 +506,7 @@ static char ascii_printable[] =
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
 
-/**
+/*
  * Undercurl style. Set UNDERCURL_STYLE to one of the available styles.
  *
  * Curly: Dunno how to draw it *shrug*
